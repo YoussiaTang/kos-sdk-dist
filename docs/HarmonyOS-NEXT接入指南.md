@@ -232,5 +232,3 @@ AppStorage.setOrCreate<boolean>('kosHostForeground', false);
 **页面无法打开**：确认只初始化一次、配置 HTTPS 地址、调用登录或由用户代理提供会话，设备能够访问站点。
 
 **后台或返回异常**：检查 UIAbility 和页面可见性已组合转发，系统返回已交给 controller，onClose 确实退出对应宿主页面。
-
-本次完成 HAR 构建及独立二进制引用编译验证，尚未完成鸿蒙设备运行、真实宿主、微信及完整业务验收。本包为试接入版本，不含示例 HAP 或示例工程。
